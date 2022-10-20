@@ -259,3 +259,50 @@ nav img {
 .stepText2 {
     margin: 8% 0%;
 }
+
+.stepImg {
+    width: 40%;
+}
+
+
+/****************************/
+/* MISSION SECTION */
+/****************************/
+
+.mission {
+    margin: 15% 10%;
+}
+.missionText h1 {
+    font-size: 180%;
+    margin: 3% 0%;
+}
+.missionText p {
+    font-weight: 700;
+}
+.mission {
+    display: flex;
+    justify-content: space-between;
+}
+.missionText {
+    width: 48%;
+    /* align-self: flex-start; */
+    margin-top: -10%;
+}
+.missionImages {
+    display: flex;
+    width: 48%;
+    /* align-self: flex-end; */
+    justify-content: space-between;
+}
+
+.firstImg img, .secondImg img {
+    width: 95%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.firstImg {
+    margin-top: 10%;
+}
