@@ -1,4 +1,4 @@
-/*--- 01 TYPOGRAPHY SYSTEM
+/*--- 01 TYPOGRAPHY SYSTEM - Camel Casing
 
 - Font sizes (px):
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -340,9 +340,9 @@ to {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 3% 10%;
+    /* margin: 3% 10%; */
     background-color: #DCBEF3;
-    padding: 5% 12%;
+    padding: 7% 12%;
 }
 .topRate {
     display: flex;
@@ -386,4 +386,89 @@ to {
 }
 .bottomRate img {
     width: 10%;
+}
+
+
+/****************************/
+/* CATEGORY SECTION */
+/****************************/
+.category {
+    background-color: #A681C3;
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categoryTop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topCatText {
+    width: 50%;
+    color: white;
+}
+.butBorder {
+    border: 1px solid #88D724;
+    padding: 2.5% 6%;
+    font-size: 80%;
+    text-decoration: none;
+    color: white;
+}
+.butBackground {
+    background: linear-gradient(90deg, #88D724 5%, #A3C32A 65.25%, #E39437 105.11%);
+    padding: 2.5% 6%;
+    font-size: 80%;
+    color: white;
+    text-decoration: none;
+}
+.categoryMiddle {
+    margin: 3% 0% 8% 0%;
+}
+.categoryMiddle h1 {
+    color: #88D724;
+    font-size: 190%;
+    text-align: center;
+    font-weight: 700;
+}
+.categoryMiddle p {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 80%;
+}
+.categoryBottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.categoryBottom img {
+    width: 80%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cats h3 {
+    margin-top: 15%;
+    color: white;
+    font-size: 110%;
+}
+.catTxtBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+} 
+.catButBtn {
+    width: 50%;
+}
+.butBtn {
+    border: 1px solid #88D724;
+    padding: 8% 12%;
+    font-size: 80%;
+    text-decoration: none;
+    color: white;
 }
