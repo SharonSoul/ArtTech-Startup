@@ -249,7 +249,7 @@ nav img {
     width: 90%;
 }
 .stepText {
-    width: 50%;
+    width: 40%;
     display: flex;
     /* justify-content: space-between; */
     flex-direction: column;
@@ -263,6 +263,10 @@ nav img {
 .stepImg {
     width: 40%;
 }
+.stepImg img {
+    animation: move 1.4s infinite ease-in-out alternate;
+    -webkit-animation: move 1.4s infinite ease-in-out alternate;
+}
 
 
 /****************************/
@@ -270,14 +274,15 @@ nav img {
 /****************************/
 
 .mission {
-    margin: 15% 10%;
+    margin: 15% 10% 5% 10%;
 }
 .missionText h1 {
     font-size: 180%;
     margin: 3% 0%;
+    font-weight: 800;
 }
 .missionText p {
-    font-weight: 700;
+    font-weight: 800;
 }
 .mission {
     display: flex;
@@ -287,6 +292,7 @@ nav img {
     width: 48%;
     /* align-self: flex-start; */
     margin-top: -10%;
+    font-family: 'Andika', sans-serif;
 }
 .missionImages {
     display: flex;
@@ -302,7 +308,82 @@ nav img {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    animation: move 1.4s infinite ease-in-out alternate;
+    -webkit-animation: move 1.4s infinite ease-in-out alternate;
+}
+@keyframes move {
+    from {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+to {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+}
 }
 .firstImg {
     margin-top: 10%;
+}
+
+
+/****************************/
+/* RATING SECTION */
+/****************************/
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3% 10%;
+    background-color: #DCBEF3;
+    padding: 5% 12%;
+}
+.topRate {
+    display: flex;
+    justify-content: space-between;
+}
+.topRate img {
+    width: 15%;
+}
+#logoSvg {
+    width: 70%;
+    align-self: flex-start;
+    margin-top: -34%;
+}
+.middleRate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10%;
+}
+.middleRate img {
+    width: 8%;
+}
+.stars {
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+.stars p {
+    text-align: center;
+}
+
+#ref3 {
+    margin: 0% -8%;
+}
+#ref4 {
+    margin: 0% -8%;
+}
+.bottomRate {
+    display: flex;
+    justify-content: space-between;
+}
+.bottomRate img {
+    width: 10%;
 }
