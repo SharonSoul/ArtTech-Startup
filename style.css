@@ -161,6 +161,7 @@ nav img {
     /* font-size: 200%; */
     padding: 5% 5%;
     background: #A681C3;
+    font-family: 'David Libre', serif;
 }
 .heroText {
     width: 50%;
@@ -207,6 +208,7 @@ nav img {
     padding: 2% 5% 10% 5%;
     /* margin: -2% 5% 2% 5%; */
     background: #A681C3;
+    font-family: 'David Libre', serif;
 }
 .gallery img {
     border-radius: 15px;
@@ -254,7 +256,7 @@ nav img {
     align-self: flex-start;
     align-items: center;
 }
-.up3, .up4 {
+.up3, .up4, .up5 {
     width: 95%;
 
 }
@@ -438,7 +440,7 @@ to {
     /*margin: 3% 10%;
     */background-color: #DCBEF3;
     padding: 7% 12%;
-    
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .rating img {
     transition: .5s;
@@ -509,6 +511,7 @@ to {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .categoryTop {
     display: flex;
